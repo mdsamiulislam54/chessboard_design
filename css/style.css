@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.chessboard {
+    width: 60%;
+    height: 913px;
+    border: 7px solid rgb(215, 215, 215);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.chessboard div{
+    width: calc(100%/8);
+    height: 112.5px;
+     /* border: 0px solid rgb(123, 121, 121);  */
+}
+.a{
+    background-color: white;
+    text-shadow: 1px whit;
+    text-align: center;
+    font-size: 80px;
+    color: black;
+
+}
+.b{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
